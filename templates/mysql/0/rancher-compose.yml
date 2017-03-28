@@ -1,0 +1,27 @@
+.catalog:
+  name: "MYSQL"
+  version: "v1"
+  description: "My MYSQL Application Catalog"
+  questions: 
+    - variable: "MYSQL_ROOT_PASSWORD"
+      label: "Mysql root password"
+      description: "Password for the mysql root user"
+      required: true
+      type: "password"
+      default: password
+    - variable: "MYSQL_DATABASE"
+      label: "Mysql database name"
+      description: "Database name"
+      required: true
+      type: "String"
+    - variable: "MYSQL_USER"
+      label: "Mysql user"
+      description: "User for the MySql database"
+      required: true
+      type: "String"
+    - variable: "MYSQL_PASSWORD"
+      label: "Mysql password for the user "
+      description: "Password for the mysql user"
+      required: true
+      type: "password"
+      default: password

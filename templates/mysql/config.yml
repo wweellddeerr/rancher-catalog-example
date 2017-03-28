@@ -1,0 +1,6 @@
+name: Mysql Example
+description: |
+  Mysql example application
+version: "1.0"
+category: DATABASE
+maintainer: Jonathan Baraldi <jonathanbaraldi@gmail.com>
