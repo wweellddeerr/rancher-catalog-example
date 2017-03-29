@@ -13,15 +13,20 @@
       label: "Mysql database name"
       description: "Database name"
       required: true
-      type: "String"
+      type: "string"
     - variable: "MYSQL_USER"
       label: "Mysql user"
       description: "User for the MySql database"
       required: true
-      type: "String"
+      type: "string"
     - variable: "MYSQL_PASSWORD"
       label: "Mysql password for the user "
       description: "Password for the mysql user"
       required: true
       type: "password"
       default: password
+    - variable: "HOST_MYSQL_PORT"
+      label: "Port to be exposed on the host"
+      description: "Port that is going to be exposed in the host"
+      required: true
+      type: "string"

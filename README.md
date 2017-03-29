@@ -5,7 +5,7 @@ This is a example Rancher Catalog Application
 
 # RDS - Remote DevOps Station
 
-![alt tag](https://raw.githubusercontent.com/jonathanbaraldi/rancher-catalog-example/templates/rds/rds-logo.png "RDS Remote DevOps Station")
+![alt tag](https://github.com/jonathanbaraldi/rancher-catalog-example/blob/master/templates/rds/rds-logo.png "RDS Remote DevOps Station")
 
 Now you have your own DevOps station, running inside container and with all the tools that a SysAdmin need to manage infrastructure and also to develop new applications.
 

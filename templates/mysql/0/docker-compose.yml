@@ -9,4 +9,8 @@ mysql:
     volumes:
         - mysqldata:/var/lib/mysql
     ports:
-        - 3306:3306
+        - ${HOST_MYSQL_PORT}:3306
+
+        
+
+
